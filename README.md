@@ -39,7 +39,8 @@ pouvez utiliser la commande suivante pour compiler le sujet :
 ```
 
 Vous pouvez également directement éditer le sujet sur GitLab depuis le Web IDE,
-ce qui produira automatiquement une nouvelle version PDF du portfolio.
+ce qui produira automatiquement une nouvelle version PDF du portfolio,
+disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio). 
 
 ## Compléter le portfolio
 
