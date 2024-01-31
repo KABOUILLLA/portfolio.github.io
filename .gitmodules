@@ -1,0 +1,3 @@
+[submodule "pandoc/eisvogel"]
+	path = pandoc/eisvogel
+	url = ../../cril-tools-by-rwa/eisvogel.git

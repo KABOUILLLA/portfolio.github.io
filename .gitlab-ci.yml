@@ -1,0 +1,19 @@
+# ------------------------ #
+# Configuration des Builds #
+# ------------------------ #
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+# -------------------- #
+# Compilation du Sujet #
+# -------------------- #
+
+sujet:
+    script:
+        - ./make-portfolio.sh
+    artifacts:
+        paths:
+            - portfolio.pdf
+    tags:
+        - marathon-sujet

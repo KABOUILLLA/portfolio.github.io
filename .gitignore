@@ -1,0 +1,5 @@
+# Fichiers produits.
+*.pdf
+
+# Divers.
+.DS_Store
