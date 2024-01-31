@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pandoc --template .pandoc/eisvogel/eisvogel.pandoc \
+pandoc --template ./pandoc/eisvogel/eisvogel.pandoc \
        --resource-path=.:md \
        --top-level-division=chapter \
        --listings \
