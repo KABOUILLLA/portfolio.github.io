@@ -9,7 +9,7 @@ variables:
 # Compilation du Sujet #
 # -------------------- #
 
-sujet:
+portfolio:
     script:
         - ./make-portfolio.sh
     artifacts:
