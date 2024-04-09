@@ -5,9 +5,9 @@
 variables:
     GIT_SUBMODULE_STRATEGY: recursive
 
-# -------------------- #
-# Compilation du Sujet #
-# -------------------- #
+# ------------------------ #
+# Compilation du Portfolio #
+# ------------------------ #
 
 portfolio:
     script:
@@ -16,4 +16,17 @@ portfolio:
         paths:
             - portfolio.pdf
     tags:
-        - marathon-sujet
+        - pandoc
+
+# ------------------------ #
+# Compilation des tableaux #
+# ------------------------ #
+
+tables:
+    script:
+        - ./make-tables.sh
+    artifacts:
+        paths:
+            - S*.pdf
+    tags:
+        - pandoc
