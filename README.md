@@ -12,11 +12,15 @@ compétences du diplôme en collectant un ensemble de traces, à savoir :
 - un *commentaire* mettant en lien le travail de l'étudiant avec la mobilisation
   de l'une des compétences du diplôme.
 
-## Fonctionnement
+## Fonctionnement du portfolio
 
 Le portfolio proposé dans ce projet est rédigé en utilisant le format
 [Markdown](https://www.azur-web.com/astuces/markdown-memento-balise),
 et compilé en PDF à l'aide de [Pandoc](https://pandoc.org/).
+
+Le répertoire [md](md) contient plusieurs fichiers Markdown (un par compétence)
+fournissant un modèle que les étudiants peuvent compléter en y apportant les
+traces justifiant de la mobilisation des compétences correspondantes.
 
 Pour pouvoir compiler le document, vous aurez besoin de récupérer le template
 [eisvogel](https://gitlab.univ-artois.fr/cril-tools-by-rwa/eisvogel.git).
@@ -42,18 +46,17 @@ Vous pouvez également directement éditer le sujet sur GitLab depuis le Web IDE
 ce qui produira automatiquement une nouvelle version PDF du portfolio,
 disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio). 
 
-## Compléter le portfolio
+## Fonctionnement du bilan des SAÉ et des stages
 
-Le répertoire [md](md) contient plusieurs fichiers Markdown (un par compétence)
-fournissant un modèle que les étudiants peuvent compléter en y apportant les
-traces justifiant de la mobilisation des compétences correspondantes.
-
-## Compléter les bilans de SAE/Stage
+Une version « compacte » du portfolio peut également être rédigée sous la
+forme de tableaux visant à lister chacune des tâches réalisées par l'étudiant
+et mentionnées dans son portfolio, en la positionnant dans la compétence
+appropriée.
 
 Le répertoire [sae](sae) contient plusieurs fichiers Markdown (un par SAÉ et un
 par stage) fournissant un modèle que les étudiants peuvent compléter en y
-référençant les différentes tâches mentionnées dans le portfolio, et en
-précisant (éventuellement) les pages du portfolio mentionnant ces tâches.
+référençant les différentes tâches, et en précisant (éventuellement) les pages
+du portfolio mentionnant ces tâches.
 
 Si vous disposez de Pandoc sur votre machine équipée d'un système Unix,
 ces bilans peuvent être compilés à l'aide de la commande :
