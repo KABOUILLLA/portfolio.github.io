@@ -32,10 +32,10 @@ git clone --recurse-submodules https://gitlab.univ-artois.fr/sae-dept-info/portf
 ```
 
 Si vous disposez de Pandoc sur votre machine équipée d'un système Unix, vous
-pouvez utiliser la commande suivante pour compiler le sujet :
+pouvez utiliser la commande suivante pour compiler le portfolio :
 
 ```shell
-./make-statement.sh
+./make-portfolio.sh
 ```
 
 Vous pouvez également directement éditer le sujet sur GitLab depuis le Web IDE,
@@ -44,6 +44,30 @@ disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio).
 
 ## Compléter le portfolio
 
-Le répertoire [md](md) contient plusieurs fichier Markdown (un par compétence)
+Le répertoire [md](md) contient plusieurs fichiers Markdown (un par compétence)
 fournissant un modèle que les étudiants peuvent compléter en y apportant les
 traces justifiant de la mobilisation des compétences correspondantes.
+
+## Compléter les bilans de SAE/Stage
+
+Le répertoire [sae](sae) contient plusieurs fichiers Markdown (un par SAÉ et un
+par stage) fournissant un modèle que les étudiants peuvent compléter en y
+référençant les différentes tâches mentionnées dans le portfolio, et en
+précisant (éventuellement) les pages du portfolio mentionnant ces tâches.
+
+Si vous disposez de Pandoc sur votre machine équipée d'un système Unix,
+ces bilans peuvent être compilés à l'aide de la commande :
+
+```shell
+./make-tables.sh
+```
+
+Ils peuvent également être téléchargés directement en choisissant le bilan
+souhaité ci-dessous :
+
+- [SAE S3.01](/../builds/artifacts/main/file/SAE3.pdf?job=tables)
+- [SAE S4.A.01](/../builds/artifacts/main/file/SAE4.pdf?job=tables)
+- [SAE S4.St](/../builds/artifacts/main/file/ST4.pdf?job=tables)
+- [SAE S5.A.01](/../builds/artifacts/main/file/SAE5.pdf?job=tables)
+- [SAE S6.A.01](/../builds/artifacts/main/file/SAE6.pdf?job=tables)
+- [SAE S6.St](/../builds/artifacts/main/file/ST6.pdf?job=tables)

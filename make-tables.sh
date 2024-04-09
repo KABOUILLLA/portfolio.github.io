@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for sae in md/S*.md
+for sae in sae/S*.md
 do
     name=$(basename $sae ".md")
     pandoc --template ./pandoc/eisvogel/eisvogel.pandoc \
