@@ -68,6 +68,8 @@ ces bilans peuvent être compilés à l'aide de la commande :
 Ils peuvent également être téléchargés directement en choisissant le bilan
 souhaité ci-dessous :
 
+- [SAE S1.01](/../builds/artifacts/main/file/SAE1.pdf?job=tables)
+- [SAE S2.01](/../builds/artifacts/main/file/SAE2.pdf?job=tables)
 - [SAE S3.01](/../builds/artifacts/main/file/SAE3.pdf?job=tables)
 - [SAE S4.A.01](/../builds/artifacts/main/file/SAE4.pdf?job=tables)
 - [SAE S4.St](/../builds/artifacts/main/file/ST4.pdf?job=tables)
