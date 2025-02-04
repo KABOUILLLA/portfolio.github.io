@@ -35,7 +35,7 @@ Un modèle de paragraphe est fourni pour chaque composante essentielle.
 Les *placeholders* `` `<du projet PPPPP>` ``, `` `<la tâche TTTTT>` ``,
 `` `<dans une preuve PPPPP>` `` et `` `<justification JJJJJ>` `` devront
 être remplacés de manière appropriée en fonction de la tâche réalisée par
-l'étudiant (les *bacquotes* `` ` `` devront également être retirées).
+l'étudiant (les *backquotes* `` ` `` devront également être retirées).
 En particulier, la preuve pourra être :
 
 - [un lien, par exemple vers un *commit* ou un ticket](https://www.arthurperret.fr/tutomd/tutorial/07-links.html)
