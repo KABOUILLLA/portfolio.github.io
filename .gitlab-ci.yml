@@ -17,16 +17,3 @@ portfolio:
             - portfolio.pdf
     tags:
         - pandoc
-
-# ------------------------ #
-# Compilation des tableaux #
-# ------------------------ #
-
-tables:
-    script:
-        - ./make-tables.sh
-    artifacts:
-        paths:
-            - S*.pdf
-    tags:
-        - pandoc
