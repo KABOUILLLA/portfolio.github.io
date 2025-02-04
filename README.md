@@ -18,20 +18,24 @@ Le portfolio proposé dans ce projet est rédigé en utilisant le format
 [Markdown](https://www.arthurperret.fr/tutomd/), et compilé en PDF à l'aide de
 [Pandoc](https://pandoc.org/).
 
-Le répertoire [md](md) contient plusieurs fichiers Markdown (un par compétence)
+Pour commencer, les informations identifiant l'étudiant doivent être saisies
+dans le [fichier de métadonnées](md/metadata.md).
+
+Le répertoire [md](md) contient d'autres fichiers Markdown (un par compétence)
 fournissant un modèle que les étudiants peuvent compléter en y apportant les
 traces justifiant de la mobilisation des compétences correspondantes.
 
-Pour chaque composante essentielle, il faut préciser une ou plusieurs
-tâche(s) justifiant de sa mobilisation.
+Pour chaque composante essentielle de ces compétences, il faut préciser une
+ou plusieurs tâche(s) justifiant de sa mobilisation.
 Chaque tâche devra faire l'objet d'une sous-section dédiée, identifiée par
 un titre de niveau trois (préfixé par `###`), et comportant l'ensemble des
 informations relatives à la tâche (contexte, preuve et justification).
 
 Un modèle de paragraphe est fourni pour chaque composante essentielle.
-Les *placeholders* `<du projet PPPPP>`, `<la tâche TTTTT>`,
-`<dans une preuve PPPPP>` et `<justification JJJJJ>` devront être remplacés
-de manière appropriée en fonction de la tâche réalisée par l'étudiant.
+Les *placeholders* `` `<du projet PPPPP>` ``, `` `<la tâche TTTTT>` ``,
+`` `<dans une preuve PPPPP>` `` et `` `<justification JJJJJ>` `` devront
+être remplacés de manière appropriée en fonction de la tâche réalisée par
+l'étudiant (les *bacquotes* `` ` `` devront également être retirées).
 En particulier, la preuve pourra être :
 
 - [un lien, par exemple vers un *commit* ou un ticket](https://www.arthurperret.fr/tutomd/tutorial/07-links.html)
