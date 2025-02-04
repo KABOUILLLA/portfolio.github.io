@@ -38,7 +38,14 @@ En particulier, la preuve pourra être :
 - [une image, par exemple une capture d'écran](https://www.arthurperret.fr/tutomd/tutorial/08-images.html)
 - [un extrait de code, idéalement avec la coloration syntaxique appropriée](https://www.arthurperret.fr/tutomd/tutorial/09-code.html)
 
-Pour pouvoir compiler le document, vous aurez besoin de récupérer le template
+## Génération du document PDF
+
+Le portfolio peut être édité directement sur GitLab depuis le Web IDE,
+ce qui produira automatiquement une nouvelle version PDF du document,
+disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio). 
+
+Vous pouvez aussi cloner ce projet, et le compiler localement.
+Pour cela, vous aurez besoin de récupérer le template
 [eisvogel](https://gitlab.univ-artois.fr/cril-tools-by-rwa/eisvogel.git).
 
 ```bash
@@ -58,6 +65,3 @@ pouvez utiliser la commande suivante pour compiler le portfolio :
 ./make-portfolio.sh
 ```
 
-Vous pouvez également directement éditer le sujet sur GitLab depuis le Web IDE,
-ce qui produira automatiquement une nouvelle version PDF du portfolio,
-disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio). 
