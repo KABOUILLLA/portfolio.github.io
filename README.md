@@ -42,15 +42,17 @@ En particulier, la preuve pourra être :
 - [une image, par exemple une capture d'écran](https://www.arthurperret.fr/tutomd/tutorial/08-images.html)
 - [un extrait de code, idéalement avec la coloration syntaxique appropriée](https://www.arthurperret.fr/tutomd/tutorial/09-code.html)
 
-## Génération du document PDF
+## Génération des documents PDF
 
 Le portfolio peut être édité directement sur GitLab depuis le Web IDE,
 ce qui produira automatiquement une nouvelle version PDF du document,
-disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio). 
+disponible [ici](/../builds/artifacts/main/file/portfolio.pdf?job=portfolio), et
+des slides [là](/../builds/artifacts/main/file/portfolio-slides.pdf?job=slides).
 
 Vous pouvez aussi cloner ce projet, et le compiler localement.
-Pour cela, vous aurez besoin de récupérer le template
-[eisvogel](https://gitlab.univ-artois.fr/cril-tools-by-rwa/eisvogel.git).
+Pour cela, vous aurez besoin de récupérer les templates
+[eisvogel](https://gitlab.univ-artois.fr/cril-tools-by-rwa/eisvogel.git) et
+[metropolis](https://gitlab.com/pandoc-toolkit-by-rwallon/beamer-templates/metropolis.git).
 
 ```bash
 git submodule update --remote --init
@@ -69,3 +71,8 @@ pouvez utiliser la commande suivante pour compiler le portfolio :
 ./make-portfolio.sh
 ```
 
+Pour compiler les slides, vous pouvez utiliser cette commande :
+
+```shell
+./make-slides.sh
+```

@@ -1,3 +1,6 @@
 [submodule "pandoc/eisvogel"]
 	path = pandoc/eisvogel
 	url = ../../cril-tools-by-rwa/eisvogel.git
+[submodule "pandoc/metropolis"]
+	path = pandoc/metropolis
+	url = https://gitlab.com/pandoc-toolkit-by-rwallon/beamer-templates/metropolis.git

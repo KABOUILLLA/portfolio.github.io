@@ -17,3 +17,12 @@ portfolio:
             - portfolio.pdf
     tags:
         - pandoc
+
+slides:
+    script:
+        - ./make-slides.sh
+    artifacts:
+        paths:
+            - portfolio-slides.pdf
+    tags:
+        - pandoc
