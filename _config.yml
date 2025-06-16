@@ -1,0 +1,37 @@
+  title: "Ludovic - Portfolio"
+  email: ludovictherage.pro@gmail.com
+  description: "Portfolio de Ludovic Thérage, étudiant en première anéee d'informatique à l'Université d'Artois. Découvrez mes projets et compétences en développement web et mobile."
+  baseurl: ""
+  url: "https://KABOUILLLA.github.io"
+
+  markdown: kramdown
+  highlighter: rouge
+  theme: minima
+
+  collections:
+    projects:
+      output: true
+      permalink: /:collection/:name/
+
+  plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-seo-tag
+
+  navigation:
+    - title: "Accueil"
+      url: /
+    - title: "À propos"
+      url: /about
+    - title: "Portfolio"
+      url: /portfolio
+    - title: "Contact"
+      url: /contact
+
+  social:
+    github: KABOUILLLA
+    email: ludovictherage.pro@gmail.com
+
+  author: "Ludovic"
+  lang: fr
+    EOF
